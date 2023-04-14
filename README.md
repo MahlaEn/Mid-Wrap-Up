@@ -6,4 +6,4 @@ Implementations of all functions in src/main/java files is your task for this as
 
 You can also use JUnit tests which we provided for you in this assignment.
 
-Good Luck, Have Fun, Code a Lot!
+Good Luck, Have Fun, Code a Lot.
