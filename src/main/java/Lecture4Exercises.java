@@ -38,18 +38,6 @@ public class Lecture4Exercises {
         }
         return true;
     }
-
-    /*
-     *   implement a function which computes the dot plot of 2 given
-     *   string. dot plot of hello and ali is:
-     *       h e l l o
-     *   h   *
-     *   e     *
-     *   l       * *
-     *   l       * *
-     *   o           *
-     *   lecture 4 page 26
-     */
     public char[][] dotPlot(String str1, String str2) {
         int s1=str1.length();
         int s2=str2.length();
