@@ -11,58 +11,47 @@ public class Lecture4ExercisesTest {
     static void setUp() {
         el4 = new Lecture4Exercises();
     }
-
     @Test
     void factorialSimple1() {
         assertEquals(120, el4.factorial(5));
     }
-
     @Test
     void factorialSimple2() {
         assertEquals(1, el4.factorial(1));
     }
-
     @Test
     void factorialOfZero() {
         assertEquals(1, el4.factorial(0));
     }
-
     @Test
     void fibonacciSample1() {
         assertEquals(5, el4.fibonacci(5));
     }
-
     @Test
     void fibonacciSample2() {
         assertEquals(1, el4.fibonacci(1));
     }
-
     @Test
     void fibonacciSample3() {
         assertEquals(1, el4.fibonacci(2));
     }
-
     @Test
     void fibonacciBigIndex() {
         // It's actually a prime number
         assertEquals(2971215073L, el4.fibonacci(47));
     }
-
     @Test
     void reverseSample1() {
         assertEquals("olleh", el4.reverse("hello"));
     }
-
     @Test
     void reverseSample2() {
         assertEquals("wow", el4.reverse("wow"));
     }
-
     @Test
     void reverseCaseImportant() {
         assertEquals("Ila", el4.reverse("alI"));
     }
-
     @Test
     void reverseWithSpace() {
         assertEquals(
