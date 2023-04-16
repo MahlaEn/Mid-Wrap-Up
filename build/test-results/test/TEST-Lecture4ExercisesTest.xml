@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Lecture4ExercisesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-15T18:28:41" hostname="DESKTOP-5GGMFI7" time="0.017">
-  <properties/>
-  <testcase name="dotPlotSample2()" classname="Lecture4ExercisesTest" time="0.017"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

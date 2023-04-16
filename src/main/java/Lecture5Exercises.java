@@ -1,32 +1,45 @@
+import java.util.Arrays;
+
 public class Lecture5Exercises {
-
-    /*
-     *   implement a function to create a random password with
-     *   given length using lower case letters
-     *   lecture 5 page 14
-     */
     public String weakPassword(int length) {
-        return null;
+        String ans ="";
+        for(int i=0;i<length;i++){
+            ans+='a';
+        }
+        return ans;
     }
-
-    /*
-     *   implement a function to create a random password with
-     *   given length and at least 1 digit and 1 special character
-     *   lecture 5 page 14
-     */
     public String strongPassword(int length) throws Exception {
-        return null;
+        if (length <= 2) {
+            throw new IllegalArgumentException("Password length must be greater than 2");
+        }
+        String ans = "#0";
+        for(int i=0;i<length-2;i++){
+            ans+='a';
+        }
+        return ans;
     }
-
-    /*
-     *   implement a function that checks if a integer is a fibobin number
-     *   integer n is fibobin is there exist an i where:
-     *       n = fib(i) + bin(fib(i))
-     *   where fib(i) is the ith fibonacci number and bin(i) is the number
-     *   of ones in binary format
-     *   lecture 5 page 17
-     */
     public boolean isFiboBin(int n) {
-        return false;
+        int maxn=(int)(1e6);
+        boolean is[]=new boolean[maxn];
+        int x=1,y=1,biny;
+        Arrays.fill(is, Boolean.FALSE);
+        is[2]=true;
+        while(x+y<maxn){
+            y=x+y;//2
+            x=y-x;//1
+            biny=bin(y);//1
+            is[y+biny]=true;//
+        }
+        return is[n];
+    }
+    public int bin(int x){
+        int cnt=0;
+        while(x>0){
+            if(x%2==1){
+                cnt++;
+            }
+            x/=2;
+        }
+        return cnt;
     }
 }

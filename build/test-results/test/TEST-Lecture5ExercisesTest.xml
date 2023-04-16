@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Lecture5ExercisesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-16T22:01:18" hostname="DESKTOP-5GGMFI7" time="0.024">
+  <properties/>
+  <testcase name="isFiboBinFalse()" classname="Lecture5ExercisesTest" time="0.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
