@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Lecture6ExercisesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-19T13:11:04" hostname="DESKTOP-5GGMFI7" time="0.018">
+  <properties/>
+  <testcase name="extractWord()" classname="Lecture6ExercisesTest" time="0.018"/>
+  <system-out><![CDATA[hi
+how
+are
+you
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
